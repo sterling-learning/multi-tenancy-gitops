@@ -1,11 +1,11 @@
 resources:
-argocd/consolenotification.yaml
-argocd/namespace-b2bi-prod.yaml
-argocd/namespace-sealed-secrets.yaml
-argocd/serviceaccounts-b2bi-prod.yaml
-argocd/sfg-b2bi-clusterwide.yaml
-argocd/daemonset-sync-global-pullsecret.yaml
-#- argocd/consolelink.yaml
+- argocd/consolenotification.yaml
+- argocd/namespace-b2bi-prod.yaml
+- argocd/namespace-sealed-secrets.yaml
+- argocd/serviceaccounts-b2bi-prod.yaml
+- argocd/sfg-b2bi-clusterwide.yaml
+- argocd/daemonset-sync-global-pullsecret.yaml
+- argocd/consolelink.yaml
 #- argocd/consolenotification.yaml
 #- argocd/machine-configuration.yaml
 #- argocd/namespace-ibm-common-services.yaml
